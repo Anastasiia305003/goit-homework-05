@@ -741,7 +741,7 @@ img {
   fill: transparent;
 }
 
-.input-chetbox:checked + .checkbox-text div {
+.input-chetbox:checked + .checkbox-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
