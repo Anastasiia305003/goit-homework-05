@@ -567,13 +567,12 @@ img {
 
 .close-btn-icon {
   fill: #2e2f42;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  border-color: transparent;
+  border: none;
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -607,7 +606,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--light-slate);
+  color: #8e8f99;
 }
 
 .form-area {
@@ -690,19 +689,19 @@ img {
 .form-area:hover,
 .form-area:focus {
   border-color: var(--color-iris);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-area:hover + .icons,
 .form-area:focus + .icons {
   fill: #4d5ae5;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment-user:hover,
 .comment-user:focus {
-  border-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms;
+  border-color: #4d5ae5;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-chetbox {
@@ -750,6 +749,7 @@ img {
 .third-section-footer {
   margin-left: 80px;
 }
+
 .telegram {
   margin-left: 16px;
 }
@@ -774,7 +774,7 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .btn-submit {
